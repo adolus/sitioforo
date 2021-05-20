@@ -22,7 +22,7 @@ public class UsuarioController {
 	ServicioUsuario servicioUsuario;
 	@Autowired
 	ServicioTema servicioTema;
-	
+	 
 	@GetMapping(path = {"/usuario/validar", "/"})
 	public String validar() {
 		return "usuario/validar";
