@@ -35,7 +35,7 @@ public class UsuarioController {
 		//boolean res = servicioUsuario.validar(correoe, clave, session);
 		//if(res) {
 
-			return "redirect:temas/listar";
+			return "redirect: temas/listar";
 		//}
 		/*modelo.addAttribute("error", servicioUsuario.getMensaje());
 		modelo.addAttribute("username", correoe);
